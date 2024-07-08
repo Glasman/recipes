@@ -23,6 +23,9 @@ function App() {
         <button onClick={() => setCount(0)}> 
           Reset
         </button>
+        <button>
+          Multiply count by 2
+        </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR!
         </p>
