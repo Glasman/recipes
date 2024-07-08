@@ -23,7 +23,7 @@ function App() {
         <button onClick={() => setCount(0)}> 
           Reset
         </button>
-        <button>
+        <button onClick = {() => setCount((count) => count * 2)}>
           Multiply count by 2
         </button>
         <p>
