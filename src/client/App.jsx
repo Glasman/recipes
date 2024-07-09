@@ -1,5 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
 
 function App() {
@@ -18,9 +17,6 @@ function App() {
         <button onClick = {() => setCount((count) => count * 2)}>
           Multiply count by 2
         </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR!
-        </p>
       </div>
     </div>
   );
